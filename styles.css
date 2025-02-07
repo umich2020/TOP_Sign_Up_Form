@@ -29,7 +29,7 @@ aside {
     flex-direction: column;
 }
 right {
-    background-color: grey;
+    background-color: #eeeeed;
     display: flex;
     width: 60vw;
     flex-direction: column;
@@ -51,4 +51,31 @@ background {
 aside > img {
     height: inherit;
     width: inherit;
+}
+top {
+    padding: 16px;
+    font-size: 1.1rem;
+}
+h3 {
+    font-weight: 900;
+}
+middle {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 32px;
+    padding-top: 0;
+}
+inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+inputRow {
+    display: flex;
+    gap: 32px;
+}
+input {
+    margin-top: 6px;
 }
