@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#logo_text {
+    font-family: "norsebold";
+    font-size: 5rem;
+    color: white;
+}
+:root{
+    font-family: serif;
+    --wided: 40vw;
+}
+
+img {
+    width: 20vh;
+    height: 30vh;
+}
+aside {
+    display: flex;
+    width: var(--wided);
+    background-color: bisque;
+    height: 100vh;
+    flex-direction: column;
+}
+right {
+    background-color: grey;
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+}
+body {
+    display: flex;
+    margin: 0;
+}
+background {
+    background-color: rgb(0 0 0 / 60%);
+    width: var(--wided);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30vh;
+    height: 40vh;
+}
+aside > img {
+    height: inherit;
+    width: inherit;
+}
