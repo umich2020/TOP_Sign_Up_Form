@@ -58,6 +58,8 @@ top {
 }
 h3 {
     font-weight: 900;
+    font-size: calc(.5vw + .5vh + 2vmin);
+
 }
 middle {
     background-color: white;
@@ -78,4 +80,28 @@ inputRow {
 }
 input {
     margin-top: 6px;
+    background-color: #E5E7EB;
+    border-radius: 3px;
+}
+bottom {
+    margin: 24px;
+}
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+button {
+    width: 128px;
+    height: 48px;
+    background: darkgreen;
+    color: white;
+    border-radius: 8px;
+    box-shadow: lightgrey 3px 3px;
+}
+input:invalid {
+    border: 2px solid red;
+}
+input:focus {
+    border: 3px solid blue;
+    box-shadow: lightgrey 3px 3px;
 }
